@@ -25,5 +25,11 @@ function div(){
     var numero7 = parseFloat(document.getElementById("n7").value)
     var numero8 = parseFloat(document.getElementById("n8").value)
     var resposta = document.getElementById("respDiv")
+
+    if(numero8 !== 0){
     resposta.textContent = numero7 / numero8
+    }else{
+        resposta.textContent = "não se divide por 0"
+    }
+
 }
