@@ -33,3 +33,15 @@ function div(){
     }
 
 }
+
+function media(){
+    var numero10 = parseFloat(document.getElementById("n10").value)
+    var numero11 = parseFloat(document.getElementById("n11").value)
+    var numero12 = parseFloat(document.getElementById("n12").value)
+    var numero13 = parseFloat(document.getElementById("n13").value)
+    var numero14 = parseFloat(document.getElementById("n14").value)
+    var resposta = document.getElementById("respMedia")
+    resposta.textContent = (numero10 + numero11 + numero12 + numero13 + numero14) / 5
+
+
+}
