@@ -45,8 +45,10 @@ function media(){
     var media = (numero10 + numero11 + numero12 + numero13 + numero14) / 5
     if(media >= 7){
         resposta.style.color = 'green'
+        resposta.style.backgroundColor = 'lightgreen'
     }else{
         resposta.style.color = 'red'
+        resposta.style.backgroundColor = 'lightpink'
     }
 
 
