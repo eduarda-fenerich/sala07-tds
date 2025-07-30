@@ -14,7 +14,7 @@ function enviar(){
         return
     }
 
-    const mensagem = `Gostaria de entrar em contato" \n\nNome: ${nome} \nAssunto: ${assunto}`
+    const mensagem = `Gostaria de entrar em contato! \n\nNome: ${nome} \nAssunto: ${assunto}`
     const msg = encodeURIComponent(mensagem)
-    window.location.href = `https://wa.me/5541992750312?text${msg}`
+    window.location.href = `https://wa.me/5541992750312?text=${msg}`
 }
