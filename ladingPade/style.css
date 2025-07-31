@@ -98,6 +98,26 @@ nav a:hover {
     height: 320px;
     border-radius: 20px;
     box-shadow: rgba(132, 34, 184, 0.79) 0px 5px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: #68029b9b;
+    box-shadow: rgba(252, 252, 252, 0.799) 0px 5px 100px;
+    cursor: crosshair;
+    color: white;
+}
+
+.card img{
+    border-radius: 10px;
+    background-color: white;
+   
 }
 
 #s3 {
@@ -154,4 +174,27 @@ nav a:hover {
 .formulario button:hover{
     cursor: pointer;
     opacity: 0.8;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer img{
+    border-radius: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+footer img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
