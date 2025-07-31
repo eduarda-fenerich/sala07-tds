@@ -40,6 +40,7 @@ nav a:hover {
     gap: 20px;
     background-color: rgb(39, 6, 69);
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .wrap-img {
@@ -71,13 +72,18 @@ nav a:hover {
 #s2 {
     min-height: 100vh;
     padding-top: 80px;
-    background-color: black;
+    background: url("./images/OMEN\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #s3 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: rgb(72, 9, 72);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 #s4 {
