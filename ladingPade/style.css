@@ -122,9 +122,20 @@ nav a:hover {
 
 #s3 {
     min-height: 100vh;
-    padding-top: 80px;
-    background-color: rgb(72, 9, 72);
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(34, 15, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-video{
+    width: 800px;
+    height: 500px;
+}
+
+.vd{
+    border-radius: 40px;
+    box-shadow: rgba(50, 144, 187, 0.488) 0px 50px 100px -20px, rgba(36, 94, 155, 0.626) 0px 30px 60px -30px, rgba(10, 122, 130, 0.531) 0px -2px 6px 0px inset;
 }
 
 #s4 {
@@ -194,7 +205,7 @@ footer img{
 }
 
 footer img:hover{
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.5);
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
